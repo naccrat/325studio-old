@@ -3,15 +3,15 @@ baseurl: https://gracious-wescoff-4359f8.netlify.com/
 
 # Site settings
 title: 325 Studio
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: tony@325studio.com
+description: "325 Studio is a full service creative design studio. We help businesses look great through brand identity, logos, marketing design, website design, user exerpience design, product design, and development"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Tony Naccarato
   pic: 1
-  position: Lead Designer
+  position: Founder & Creative Director
   social:
     - title: twitter
       url: #
