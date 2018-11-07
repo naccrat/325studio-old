@@ -1,16 +1,15 @@
 ---
-title: 1 Salon
+title: 1 Salon Website Design
 subtitle: Website Design
 layout: default
 modal-id: 3
 date: 2018-09-01 06:00:00 +0000
 img: "/uploads/1 Salon full.png"
 thumbnail: "/uploads/1 Salon.png"
-alt: image-alt
+alt: 1 Salon Website Design
 project-date: September 2018
 client: 1 Salon
 category:
-- Web Development
 - Website Design
 description: A new Utah salon was looking to promote themselves with a new website
   where they could provide information to their clients as well as showcase their
