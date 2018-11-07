@@ -11,7 +11,7 @@ project-date: July 2018
 client: 1 Salon
 category:
 - Logo Design
-description: A custom logo design and brand identity for a new Utah based high end
+description: A custom logo design and brand identity for a new Utah based high-end
   hair salon.
 
 ---
