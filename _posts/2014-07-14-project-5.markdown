@@ -9,8 +9,7 @@ thumbnail: "/uploads/1 salon.png"
 alt: image-alt
 project-date: July 2018
 client: 1 Salon
-category:
-- Logo Design
+category: Logo Design
 description: A custom logo design and brand identity for a new Utah based high-end
   hair salon.
 
