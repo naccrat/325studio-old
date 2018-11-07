@@ -1,7 +1,7 @@
 ---
-label: 1 Salon Brand Identity
-hide_body: 
-is_partial: 
+label: Project Page
+hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
