@@ -1,15 +1,19 @@
 ---
-title: Golden
+title: 1 Salon
 subtitle: Website Design
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+date: 2018-09-01 06:00:00 +0000
+img: "/uploads/1 Salon full.png"
+thumbnail: "/uploads/1 Salon.png"
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: September 2018
+client: 1 Salon
+category:
+- Web Development
+- Website Design
+description: A new Utah salon was looking to promote themselves with a new website
+  where they could provide information to their clients as well as showcase their
+  amazing services.
 
 ---
