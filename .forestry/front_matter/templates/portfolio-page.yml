@@ -9,3 +9,6 @@ fields:
 - type: text
   name: project_description
   label: Project Description
+- type: text
+  name: category
+  label: Category
