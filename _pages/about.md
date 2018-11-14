@@ -7,28 +7,10 @@ featured_image: /images/demo/demo-landscape.jpg
 
 ![](/images/demo/demo-landscape.jpg)
 
-## Features
+## About
 
-We've packed Duet full of powerful features to help showcase your work:
+325studio is full service creative designed agency owned by Tony Naccarato, a product designer who specializes in branding, website design, application design, and user experience design. The company was established officially in 2007, but Tony has worked as a freelance designer for over 15 years working mostly with website design, user interaction, front-end development, as well as branding and print work.
 
-* Beautiful, minimal design
-* Two-column masonry grid layout
-* Responsive – works perfectly on all devices
-* Portfolio post type
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+325studio is located out of Davis County, Utah but services clients from New York to England.
 
-## Get Duet
-
-Duet is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $29.
-
-<a href="https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme" class="button button--large">Get This Theme</a>
+Even though 325studio is mostly a solo freelancing company, depending on the project, the services of other designers or contacts are utilized to deliver the quality work that 325studio is known for.
