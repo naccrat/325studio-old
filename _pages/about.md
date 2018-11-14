@@ -2,10 +2,8 @@
 title: About 325 Studio
 subtitle: 
 description: 
-featured_image: /images/demo/demo-landscape.jpg
+featured_image:
 ---
-
-<!-- ![](/images/demo/demo-landscape.jpg) -->
 
 325studio is full service creative designed agency owned by Tony Naccarato, a product designer who specializes in branding, website design, application design, and user experience design. The company was established officially in 2007, but Tony has worked as a freelance designer for over 15 years working mostly with website design, user interaction, front-end development, as well as branding and print work.
 
