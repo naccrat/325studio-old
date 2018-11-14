@@ -63,5 +63,3 @@ fields:
   type: textarea
   hidden: false
   default: ''
-pages:
-- _posts/2018-11-07-1-salon-website.md
