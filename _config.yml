@@ -1,14 +1,13 @@
 # Site settings
 title: Devoll
-email: your-email@domain.com
+email: tony@325studio.com 
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
+  325 Studio can help with brand identity to marketing and user experience to digital experiences, we can help your company look great and have an impact on your customers.
+
+baseurl: "gracious-wescoff-4359f8.netlify.com" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: 
+github_username:  
 
 # Build settings
 markdown: kramdown
