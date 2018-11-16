@@ -2,15 +2,6 @@
 layout: default
 title: About
 section_id: about
-skills:
-  - title: Web Design
-    percentage: 84
-  - title: Web Development
-    percentage: 95
-  - title: Site Management
-    percentage: 70
-  - title: Branding
-    percentage: 61
 testimonials:
   - quote: I have had the privilege of having Tony design and manage multiple sites for me, and it has been a wonderful experience! He is knowledgeable, efficient and effective, and creates the sites to my specifications. He's also always learning and growing; keeping up with the latest research, trends and more. 325studio is a fabulous.
     author: M. Bridget Cook, The Perfect Word
@@ -31,31 +22,14 @@ testimonials:
 
 <div class='full'>
   <div class='row'>
-    <div class='medium-6 columns'>
+    <div class='medium-12 columns'>
       <h3>Our history</h3>
       <p>325studio is full service creative designed agency owned by Tony Naccarato, a product designer who specializes in branding, website design, application design, and user experience design. The company was established officially in 2007, but Tony has worked as a freelance designer for over 15 years working mostly with website design, user interaction, front-end development, as well as branding and print work.</p>
       <p>325studio is located out of Davis County, Utah but services clients from New York to England.</p>
       <p>Even though 325studio is mostly a solo freelancing company, depending on the project, the services of other designers or contacts are utilized to deliver the quality work that 325studio is known for.</p>
     </div>
-    <div class='medium-6 columns'>
-      <h3>Our skills</h3>
-      <div class='mod modBarGraph'>
-        <ul class='bars'>
-          {% for skill in page.skills %}
-            <li>
-              <h4>
-                {{skill.title}}
-                <strong>{{skill.percentage}}%</strong>
-              </h4>
-              <p class='highlighted' data-percent='{{skill.percentage}}'></p>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
   </div>
 </div>
-
 
 <div class='full'>
   <div class='row'>
