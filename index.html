@@ -102,24 +102,6 @@ services:
     title: Security
     desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
 
-milestones:
-  - icon: folder-open
-    from: 0
-    to: 69
-    title: Projects Completed
-  - icon: coffee
-    from: 0
-    to: 726
-    title: Cups of coffee offered
-  - icon: thumbs-up
-    from: 0
-    to: 59
-    title: Happy clients
-  - icon: file-text
-    from: 0
-    to: 21
-    title: Articles Published
-
 ---
 
 
@@ -291,120 +273,17 @@ milestones:
   <div class='two spacing'></div>
 </div>
 
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Our team" %}
-      <div class='spacing'></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class='two spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    {% for member in site.data.members %}
-      <div class='small-6 medium-3 large-3 columns'>
-        <div class='mod modTeamMember'>
-          <div class='member'>
-            <img class="avatar" alt="" src="{{ member.avatar }}" />
-            <div class='overlay'>
-              <div class='intro'>
-                <h3>{{member.name}}</h3>
-                <p>{{member.position}}</p>
-                <ul class='socials'>
-                  {% for social in member.socials %}
-                    <li>
-                      <a href='{{social.link}}'>
-                        <i class='fa fa-{{social.icon}}'></i>
-                      </a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
-
-<div class='full' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Our recent posts" %}
-      <div class='spacing'></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class='two spacing'></div>
-    </div>
-  </div>
-
-  <div class='row'>
-    {% for post in site.posts %}
-      {% if forloop.index > 3 %}
-        {% break %}
-      {% endif %}
-
-      <div class='large-4 medium-4 columns'>
-        <div class='mod modBlogPost'>
-          {% for image in post.images %}
-            {% unless forloop.first %}
-              {% break %}
-            {% endunless %}
-            <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
-          {% endfor %}
-          <div class='content'>
-            <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
-            <h4><a href="#">{{post.title}}</a></h4>
-            <p>{{post.excerpt}}</p>
-            <!--
-              <div class="tags">
-                {% for cat in post.categories %}
-                  <a href="#">{{cat | capitalize}}</a>
-                  {% unless forloop.last %}
-                    ,
-                  {% endunless %}
-                {% endfor %}
-              </div>
-            -->
-          </div>
-        </div>
-      </div>
-
-    {% endfor %}
-
-  </div>
-
-
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <a class='button' href='blog.html'>See more posts</a>
-      </p>
-    </div>
-  </div>
-  <div class='two spacing'></div>
-
-</div>
-
-
 {% include our-customers.html %}
-
 
 <div class='full no-padding' style='background: #fff'>
   <div class='two spacing'></div>
   <div class='mod modCallToAction'>
     <div class='row'>
       <div class='medium-9 large-9 columns'>
-        <p>Like what you see here? Checkout this theme and start to build your site immediately.</p>
+        <p>Ready to get started on your next project. Contact us today.</p>
       </div>
       <div class='medium-3 large-3 columns'>
-        <a class='button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>
+        <a class='button' href='contact.html'>Contact us</a>
       </div>
     </div>
   </div>

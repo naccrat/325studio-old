@@ -2,6 +2,7 @@
 layout: default
 title: About
 section_id: about
+
 testimonials:
   - quote: I have had the privilege of having Tony design and manage multiple sites for me, and it has been a wonderful experience! He is knowledgeable, efficient and effective, and creates the sites to my specifications. He's also always learning and growing; keeping up with the latest research, trends and more. 325studio is a fabulous.
     author: M. Bridget Cook, The Perfect Word
@@ -30,38 +31,6 @@ testimonials:
     </div>
   </div>
 </div>
-
-<div class='full'>
-  <div class='row'>
-    {% for member in site.data.members %}
-      <div class='small-6 medium-3 large-3 columns'>
-        <div class='mod modTeamMember'>
-          <div class='member'>
-            <img class="avatar" alt="" src="{{ member.avatar }}" />
-            <div class='overlay'>
-              <div class='intro'>
-                <h3>{{member.name}}</h3>
-                <p>{{member.position}}</p>
-                <ul class='socials'>
-                  {% for social in member.socials %}
-                    <li>
-                      <a href='{{social.link}}'>
-                        <i class='fa fa-{{social.icon}}'></i>
-                      </a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-          </div>
-          <p class='centered-text'>{{member.desc}}</p>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
-
 
 <div class='full parallax' style='background: #f5f5f5'>
   <div class='row'>
