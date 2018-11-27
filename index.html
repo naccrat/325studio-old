@@ -131,6 +131,7 @@ services:
 <div class="four spacing"></div>
 
 <div class="row">
+  {% for service in page.services %}
   <div class="medium-3 large-3 columns">
     {% include icon-text.html title='{{service.title}}' desc='{{service.desc}}' icon_class='fa fa-{{service.icon}}' delay='0' shape_class='icon-text-circle' %}
   </div>
@@ -143,6 +144,7 @@ services:
   <div class="medium-3 large-3 columns">
     {% include icon-text.html title='{{service.title}}' desc='{{service.desc}}' icon_class='fa fa-{{service.icon}}' delay='600' shape_class='icon-text-circle' %}
   </div>
+  {% endfor %}
 </div>
 
 <div class="spacing"></div>
