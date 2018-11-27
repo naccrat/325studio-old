@@ -63,3 +63,5 @@ fields:
   type: textarea
   hidden: false
   default: ''
+pages:
+- work/utah-loud-logo.md
